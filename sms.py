@@ -33,7 +33,7 @@ class SendSms():
         	})
         try:
             BeautifulSoup(dsmartgo.text, "html.parser").find("div", {"class": "info-text"}).text.strip()
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} Numara: +90{self.phone} ➜ dsmartgo.com.tr")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ dsmartgo.com.tr")
         except AttributeError:
             print(f"{Fore.LIGHTGREEN_EX}[+] {Style.RESET_ALL}API Başarılı! Numara: +90{self.phone} ➜ dsmartgo.com.tr")
             self.adet += 1
@@ -74,7 +74,7 @@ class SendSms():
             else:
                 raise
         except:    
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} Numara: +90{self.phone} ➜ core.kahvedunyasi.com")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ core.kahvedunyasi.com")
         
 
     #naosstars.com
@@ -121,7 +121,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} Numara: +90{self.phone} ➜ wmf.com.tr")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ wmf.com.tr")
          
     
     #istegelsin.com

@@ -98,7 +98,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} Numara: +90{self.phone} ➜ shop.naosstars.com")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ shop.naosstars.com")
           
         
     #wmf.com.tr

@@ -18,7 +18,7 @@ with open("forsasuke.py", "r", encoding="utf-8") as c:
 if read == r:
     print(Fore.LIGHTGREEN_EX + "🟢 Yazılım Günceldir")
     sleep(2)
-else:
+if read != r:
     print(Fore.YELLOW + "🟡 Yazılım Güncelleniyor...")
     with open("forsasuke.py", "w", encoding="utf-8") as c:
         c.write(r)

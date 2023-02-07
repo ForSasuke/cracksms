@@ -16,12 +16,13 @@ l = get("https://raw.githubusercontent.com/ForSasuke/cracksms/main/forsasuke.py"
 with open("forsasuke.py", "r", encoding="utf-8") as k:
     read = k.read()
 if read == l:
-    print(Fore.LIGHTGREEN_EX + "🟢 Yazılım Günceldir")
+    print(Fore.LIGHTGREEN_EX + "✔️ Yazılım Günceldir")
     sleep(2)
 else:
     print(Fore.YELLOW + "🟡 Yazılım Güncelleniyor...")
     with open("forsasuke.py", "w", encoding="utf-8") as k:
         k.write(l)
+    print(Fore.YELLOW + "✔️ Sistem Güncellendi")
         
 sleep(4)
 

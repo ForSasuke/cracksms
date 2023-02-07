@@ -16,12 +16,12 @@ r = get("https://raw.githubusercontent.com/ForSasuke/cracksms/main/forsasuke.py"
 with open("forsasuke.py", "r", encoding="utf-8") as c:
     read = c.read()
 if read == r:
-    print(Fore.LIGHTGREEN_EX + "🟢 Yazılım Günceldir")
-    sleep(1)
-if read != r:
+    print(Fore.YELLOW + "🟢 Yazılım Günceldir")
+    sleep(2)
+else:
     print(Fore.YELLOW + "🟡 Yazılım Güncelleniyor...")
-    with open("forsasuke.py", "w", encoding="utf-8") as k:
-        k.write(r)
+    with open("forsasuke.py", "w", encoding="utf-8") as c:
+        c.write(r)
 sleep(4)
 
 from sms import SendSms
@@ -42,7 +42,7 @@ while 1:
 ██║     ╚██████╔╝██║  ██║███████║██║  ██║███████║╚██████╔╝██║  ██╗███████╗    ███████║██║ ╚═╝ ██║███████║
 ╚═╝      ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝    ╚══════╝╚═╝     ╚═╝╚══════╝
                                                                           
-    Sms: {}                    🟢 Servis Online                   cracked by @forsasuke.root\n
+    Sms: {}                    🟢 Servis Offline                   cracked by @forsasuke.root\n
     """.format(Fore.LIGHTRED_EX, len(servisler_sms), Style.RESET_ALL, Fore.LIGHTRED_EX))
     try:
         menu = (input(Fore.RED + " 1- SMS Gönder\n 2- Katkıda Bulunanlar\n 3- Çıkış\n\n" + Fore.YELLOW + " Seçim: "))

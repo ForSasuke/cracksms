@@ -16,7 +16,7 @@ r = get("https://raw.githubusercontent.com/ForSasuke/cracksms/main/forsasuke.py"
 with open("forsasuke.py", "r", encoding="utf-8") as c:
     read = c.read()
 if read == r:
-    print(Fore.YELLOW + "🟢 Yazılım Günceldir")
+    print(Fore.LIGHTGREEN_EX + "🟢 Yazılım Günceldir")
     sleep(2)
 else:
     print(Fore.YELLOW + "🟡 Yazılım Güncelleniyor...")

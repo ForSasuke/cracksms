@@ -11,6 +11,19 @@ else:
     print(Fore.RED + "Güncelleme yapılıyor...")
     with open("sms.py", "w", encoding="utf-8") as f:
         f.write(r)
+
+r = get("https://raw.githubusercontent.com/ForSasuke/cracksms/main/forsasuke.py").text
+with open("forsasuke.py", "r", encoding="utf-8") as c:
+    read = c.read()
+if read == r:
+    print(Fore.YELLOW + "🟢 Yazılım Günceldir")
+    sleep(2)
+else:
+    print(Fore.YELLOW + "🟡 Yazılım Güncelleniyor...")
+    with open("forsasuke.py", "w", encoding="utf-8") as k:
+        k.write(r)
+sleep(4)
+
 from sms import SendSms
 servisler_sms = []
 for attribute in dir(SendSms):

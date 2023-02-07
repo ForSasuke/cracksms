@@ -12,16 +12,16 @@ else:
     with open("sms.py", "w", encoding="utf-8") as f:
         f.write(r)
 
-r = get("https://raw.githubusercontent.com/ForSasuke/cracksms/main/forsasuke.py").text
+l = get("https://raw.githubusercontent.com/ForSasuke/cracksms/main/forsasuke.py").text
 with open("forsasuke.py", "r", encoding="utf-8") as c:
     read = c.read()
-if read == r:
+if read == l:
     print(Fore.LIGHTGREEN_EX + "🟢 Yazılım Günceldir")
     sleep(2)
 else:
     print(Fore.YELLOW + "🟡 Yazılım Güncelleniyor...")
     with open("forsasuke.py", "w", encoding="utf-8") as c:
-        c.write(r)
+        c.write(l)
 sleep(4)
 
 from sms import SendSms

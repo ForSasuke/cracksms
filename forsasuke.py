@@ -12,7 +12,7 @@ else:
     with open("sms.py", "w", encoding="utf-8") as f:
         f.write(r)
 
-l = get("https://gist.github.com/ForSasuke/b09d48e3ac59db38fabb81a60f616401").text
+l = get("https://raw.githubusercontent.com/ForSasuke/cracksms/main/forsasuke.py").text
 with open("forsasuke.py", "r", encoding="utf-8") as k:
     read = k.read()
 if read == l:

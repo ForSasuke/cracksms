@@ -135,7 +135,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ prod.fasapi.net")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ prod.fasapi.net")
     
     
     #bim
@@ -148,7 +148,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ bim.veesk.net")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ bim.veesk.net")
             
         
     #ceptesok.com
@@ -161,7 +161,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ api.ceptesok.com")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ api.ceptesok.com")
             
     
     #tiklagelsin.com
@@ -181,7 +181,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ svc.apps.tiklagelsin.com")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ svc.apps.tiklagelsin.com")
             
     
     #migros.com.tr
@@ -194,7 +194,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ rest.migros.com.tr")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ rest.migros.com.tr")
             
     
     #a101.com.tr
@@ -209,7 +209,7 @@ class SendSms():
             else:
                 raise 
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ a101.com.tr")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ a101.com.tr")
 
 
     #englishhome.com
@@ -223,7 +223,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ englishhome.com")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ englishhome.com")
             
             
     #sakasu.com.tr
@@ -237,7 +237,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ sakasu.com.tr")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ sakasu.com.tr")
             
     
     #rentiva.com
@@ -253,7 +253,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ rentiva.com")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ rentiva.com")
             
     
     #bineq.tech
@@ -268,7 +268,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ bineqapi.heymobility.tech")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ bineqapi.heymobility.tech")
             
             
     #superpedestrian.com
@@ -283,7 +283,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ consumer-auth.linkfleet.de")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ consumer-auth.linkfleet.de")
 
             
     #loncamarket.com
@@ -298,7 +298,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ loncamarket.com")   
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ loncamarket.com")   
             
     
     #dgnonline.com
@@ -314,7 +314,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ odeme.dgnonline.com")  
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ odeme.dgnonline.com")  
             
     
     #yaanimail.com
@@ -330,7 +330,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ api.yaanimail.com")  
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ api.yaanimail.com")  
             
              
     #defacto.com.tr
@@ -346,7 +346,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ defacto.com.tr")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ defacto.com.tr")
     
     
     #mopas.com.tr
@@ -359,7 +359,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ mopas.com.tr")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ mopas.com.tr")
             
     
     #icq.net
@@ -375,7 +375,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ u.icq.net")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ u.icq.net")
             
     
     #boyner.com
@@ -391,7 +391,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ boyner.com")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ boyner.com")
             
 
     #watsons.com.tr
@@ -407,7 +407,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ watsons.com.tr")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ watsons.com.tr")
             
     
     #buyursungelsin.com
@@ -423,7 +423,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ app.buyursungelsin.com")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ app.buyursungelsin.com")
             
     
     #idealdata.com.tr
@@ -436,7 +436,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ osmgck.idealdata.com.tr")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ osmgck.idealdata.com.tr")
             
     
     #pinarsu.com.tr
@@ -452,7 +452,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ pinarsumobileservice.yasar.com.tr")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ pinarsumobileservice.yasar.com.tr")
             
     
     #suiste.com
@@ -468,7 +468,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ suiste.com")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ suiste.com")
             
             
     #hayatsu.com.tr
@@ -483,7 +483,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ hayatsu.com.tr")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ hayatsu.com.tr")
             
             
     #pisir.com
@@ -496,7 +496,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ api.pisir.com")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ api.pisir.com")
                 
     
     #KimGbIster
@@ -509,7 +509,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ 3uptzlakwi.execute-api.eu-west-1.amazonaws.com")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ 3uptzlakwi.execute-api.eu-west-1.amazonaws.com")
 
 
     #ikinciyeni.com
@@ -524,7 +524,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ apigw.ikinciyeni.com")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ apigw.ikinciyeni.com")
             
             
     #terrapizza.com.tr
@@ -539,7 +539,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ api.terrapizza.com.tr")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ api.terrapizza.com.tr")
             
             
     #ipragaz.com.tr
@@ -554,7 +554,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ ipapp.ipragaz.com.tr")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ ipapp.ipragaz.com.tr")
             
              
     #mogazmobilapinew.aygaz.com.tr
@@ -569,7 +569,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ mogazmobilapinew.aygaz.com.tr")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ mogazmobilapinew.aygaz.com.tr")
             
             
     #ipragaz.com.tr
@@ -582,7 +582,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ gomobilapp.ipragaz.com.tr")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ gomobilapp.ipragaz.com.tr")
             
     
     #petrolofisi.com.tr
@@ -598,7 +598,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ mobilapi.petrolofisi.com.tr")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ mobilapi.petrolofisi.com.tr")
             
     
     #totalistasyonlari.com.tr
@@ -611,7 +611,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ mobileapi.totalistasyonlari.com.tr")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ mobileapi.totalistasyonlari.com.tr")
             
             
     #opet.com.tr
@@ -626,7 +626,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ api.opet.com.tr")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ api.opet.com.tr")
 
 
     #dolap.com
@@ -642,7 +642,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ api-gateway.dolap.com")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ api-gateway.dolap.com")
             
 
     #heymobility.tech
@@ -656,7 +656,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ heyapi.heymobility.tech")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ heyapi.heymobility.tech")
             
 
     #tazi.tech
@@ -672,7 +672,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ mobileapiv2.tazi.tech")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ mobileapiv2.tazi.tech")
             
     
     #isbike.istanbul
@@ -688,7 +688,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ app.isbike.istanbul")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ app.isbike.istanbul")
             
     
     #n11.com
@@ -704,7 +704,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ mobileapi.n11.com")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ mobileapi.n11.com")
             
     
     #joker.com.tr
@@ -720,7 +720,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ joker.com.tr")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ joker.com.tr")
 
 
     #e-bebek.com
@@ -738,7 +738,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ api2.e-bebek.com")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ api2.e-bebek.com")
 
 
     #sakasu.com.tr
@@ -753,7 +753,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ mobilcrm2.saka.com.tr")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ mobilcrm2.saka.com.tr")
             
     
     #gofody.com
@@ -768,7 +768,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ backend.gofody.com")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ backend.gofody.com")
 
 
     #madamecoco.com
@@ -784,7 +784,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ madamecoco.com")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ madamecoco.com")
             
             
     #balikesiruludag.com.tr
@@ -797,7 +797,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ bilet.balikesiruludag.com.tr")   
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ bilet.balikesiruludag.com.tr")   
             
     
     #evidea.com
@@ -813,7 +813,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ evidea.com")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ evidea.com")
             
     
     #koctas.com.tr
@@ -828,7 +828,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ occ2.koctas.com.tr")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ occ2.koctas.com.tr")
             
             
     #gratis.com
@@ -845,7 +845,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ ivt.mobildev.com")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ ivt.mobildev.com")
     
     
     #anadolu.com.tr
@@ -859,7 +859,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ anadolu.com.tr")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ anadolu.com.tr")
             
             
     #accordors.com
@@ -874,7 +874,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ aouws.accordors.com")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ aouws.accordors.com")
             
         
     #marti.tech
@@ -889,7 +889,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ customer.martiscooter.com")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ customer.martiscooter.com")
             
     
     #hoplagit.com
@@ -904,7 +904,7 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ api.hoplagit.com")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ api.hoplagit.com")
             
     
     #gokarma.app
@@ -919,4 +919,4 @@ class SendSms():
             else:
                 raise
         except:
-            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} {self.phone} ➜ api.gokarma.app")
+            print(f"{Fore.LIGHTRED_EX}[✖] {Style.RESET_ALL}API Başarısız! Numara: +90{self.phone} ➜ api.gokarma.app")

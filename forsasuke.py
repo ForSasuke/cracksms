@@ -18,7 +18,7 @@ with open("forsasuke.py", "r", encoding="utf-8") as c:
 if read == r:
     print(Fore.LIGHTGREEN_EX + "🟢 Yazılım Günceldir")
     sleep(2)
-if read != r:
+else:
     print(Fore.YELLOW + "🟡 Yazılım Güncelleniyor...")
     with open("forsasuke.py", "w", encoding="utf-8") as c:
         c.write(r)
@@ -42,10 +42,10 @@ while 1:
 ██║     ╚██████╔╝██║  ██║███████║██║  ██║███████║╚██████╔╝██║  ██╗███████╗    ███████║██║ ╚═╝ ██║███████║
 ╚═╝      ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝    ╚══════╝╚═╝     ╚═╝╚══════╝
                                                                           
-    Sms: {}                    🟢 bAKIM                   cracked by @forsasuke.root\n
+    Sms: {}                    🟢 Servis Online                   cracked by @forsasuke.root\n
     """.format(Fore.LIGHTRED_EX, len(servisler_sms), Style.RESET_ALL, Fore.LIGHTRED_EX))
     try:
-        menu = (input(Fore.RED + " 1- SMS Gönder\n 2- Katkıda Bulunanlar\n 3- Çıkış\n\n" + Fore.YELLOW + " Seçim: "))
+        menu = (input(Fore.RED + " 1- SMS Spammer\n 2- Destekciler \n 3- Çıkış\n\n" + Fore.YELLOW + " Seçim: "))
         if menu == "":
             continue
         menu = int(menu) 

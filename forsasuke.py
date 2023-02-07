@@ -12,16 +12,17 @@ else:
     with open("sms.py", "w", encoding="utf-8") as f:
         f.write(r)
 
-l = get("https://raw.githubusercontent.com/ForSasuke/cracksms/main/forsasuke.py").text
-with open("forsasuke.py", "r", encoding="utf-8") as c:
-    read = c.read()
+l = get("https://gist.github.com/ForSasuke/b09d48e3ac59db38fabb81a60f616401").text
+with open("forsasuke.py", "r", encoding="utf-8") as k:
+    read = k.read()
 if read == l:
     print(Fore.LIGHTGREEN_EX + "🟢 Yazılım Günceldir")
     sleep(2)
 else:
     print(Fore.YELLOW + "🟡 Yazılım Güncelleniyor...")
-    with open("forsasuke.py", "w", encoding="utf-8") as c:
-        c.write(l)
+    with open("forsasuke.py", "w", encoding="utf-8") as k:
+        k.write(l)
+        
 sleep(4)
 
 from sms import SendSms
@@ -42,7 +43,7 @@ while 1:
 ██║     ╚██████╔╝██║  ██║███████║██║  ██║███████║╚██████╔╝██║  ██╗███████╗    ███████║██║ ╚═╝ ██║███████║
 ╚═╝      ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝    ╚══════╝╚═╝     ╚═╝╚══════╝
                                                                           
-    Sms: {}                    🟢 pPP                   cracked by @forsasuke.root\n
+    Sms: {}                    🟢 DenemeSistem                   cracked by @forsasuke.root\n
     """.format(Fore.LIGHTRED_EX, len(servisler_sms), Style.RESET_ALL, Fore.LIGHTRED_EX))
     try:
         menu = (input(Fore.RED + " 1- SMS Spammer\n 2- Destekciler \n 3- Çıkış\n\n" + Fore.YELLOW + " Seçim: "))

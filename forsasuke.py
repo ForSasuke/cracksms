@@ -22,9 +22,11 @@ else:
     print(Fore.YELLOW + "🟡 Yazılım Güncelleniyor...")
     with open("forsasuke.py", "w", encoding="utf-8") as k:
         k.write(l)
+    sleep(4)
     print(Fore.YELLOW + "✔️ Sistem Güncellendi")
-        
-sleep(4)
+    print(Fore.RED + "↻ LÜTFEN UYGULAMAYI TEKRARDAN BAŞLATIN!")
+    sleep(4)
+    quit()
 
 from sms import SendSms
 servisler_sms = []

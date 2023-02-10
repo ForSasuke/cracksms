@@ -23,7 +23,7 @@ else:
     with open("forsasuke.py", "w", encoding="utf-8") as k:
         k.write(l)
     sleep(4)
-    print(Fore.YELLOW + "✔️ Yazılım Güncellendi!")
+    print(Fore.LIGHTGREEN_EX + "✔️ Yazılım Güncellendi!")
     print(Fore.RED + "↻ LÜTFEN UYGULAMAYI TEKRARDAN BAŞLATIN!")
     sleep(4)
     quit()

@@ -48,7 +48,7 @@ while 1:
                                                                   
                                                                   
                                                                           
-    Sms: {}                    🟢 Servis Online!                   cracked by @forsasuke.root\n
+    Sms Server: {}                    🟢 Servis Aktif!                   cracked by @forsasuke.root\n
     """.format(Fore.LIGHTRED_EX, len(servisler_sms), Style.RESET_ALL, Fore.LIGHTRED_EX))
     try:
         menu = (input(Fore.RED + " 1- SMS Spammer\n 2- Destekciler \n 3- Çıkış\n\n" + Fore.YELLOW + " Seçim: "))

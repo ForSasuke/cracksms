@@ -1,4 +1,4 @@
-from colorama import Fore, Style
+İfrom colorama import Fore, Style
 from time import sleep
 from os import system
 from requests import get
@@ -23,7 +23,7 @@ else:
     with open("forsasuke.py", "w", encoding="utf-8") as k:
         k.write(l)
     sleep(4)
-    print(Fore.YELLOW + "✔️ Sistem Güncellendi")
+    print(Fore.YELLOW + "✔️ Yazılım Güncellendi!")
     print(Fore.RED + "↻ LÜTFEN UYGULAMAYI TEKRARDAN BAŞLATIN!")
     sleep(4)
     quit()
